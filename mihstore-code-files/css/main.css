@@ -94,6 +94,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Global Styles ---------------*/
+
+body{
+    font-size: 18px; 
+}
+
+h1{
+    font-size: 2em; 
+}
+
+h2,
+h3{
+    font-size: 1em;
+    color: #7db122;
+    text-transform: uppercase; 
+        
+}
+h3{
+    color: #4cb1ca;
+}
+h4{
+    color: #f02b63;
+}
+
+h5{
+   color: #afafaf;
+}
+
+h6{
+    font-size: .7em;
+    color: #f02b63;
+    
+}
+
+p{
+    font-size: .7em;
+    color: #c3c3c3;
+}
+
+a{
+    text-decoration: none;
+    font-size: .7em;
+    color: black;
+    font-weight: 600;
+}
+
+ul li{
+    display: inline-block; 
+}
+
+.upper-header ul li{
+    
+    text-transform: uppercase; 
+    color: #ababab;
+}
+
+nav ul li{
+    text-transform: uppercase; 
+}
+
+
+
 
 
 
