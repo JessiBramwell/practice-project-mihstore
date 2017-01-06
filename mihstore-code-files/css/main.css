@@ -135,6 +135,11 @@ p{
     color: #c3c3c3;
 }
 
+img{
+    width: 100%; 
+    height: auto; 
+}
+
 a{
     text-decoration: none;
     font-size: .78em;
@@ -155,6 +160,9 @@ ul li{
             color: #4cb1ca; 
         }
 
+#main-header{
+    
+}
 nav ul li{
     text-transform: uppercase; 
 }
@@ -170,12 +178,72 @@ nav ul li{
 }
 
 .feed-item span{
-    color: #f02b63; 
-    
+    color: #f02b63;     
+}
+/* --- temporary style for practice ---*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
+.dropdown-content a{
+    color: ;
+    padding: ;
+    text-decoration: none; 
+    display: block; 
+    
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* Header --------------------------------*/
+.upper-header{
+    background: #fff;
+    
+}
+.upper-header p{
+    float: left; 
+}
+.upper-header ul{
+    float: right; 
+}
+
+#main-header{
+    clear: both; 
+    float: left
+}
+
+.social-media-contact{
+    float: left; 
+}
+
+nav{
+    clear: both
+}
 
 
 
