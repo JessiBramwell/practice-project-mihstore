@@ -97,7 +97,8 @@ textarea {
 /* Global Styles ---------------*/
 
 body{
-    font-size: 18px; 
+    font-size: 18px;
+    
 }
 
 h1{
@@ -116,26 +117,27 @@ h3{
 }
 h4{
     color: #f02b63;
+    font-size: .78em; 
 }
 
 h5{
    color: #afafaf;
+    font-size: .78em; 
 }
 
 h6{
     font-size: .7em;
-    color: #f02b63;
-    
+    color: #f02b63;    
 }
 
 p{
-    font-size: .7em;
+    font-size: .78em;
     color: #c3c3c3;
 }
 
 a{
     text-decoration: none;
-    font-size: .7em;
+    font-size: .78em;
     color: black;
     font-weight: 600;
 }
@@ -149,15 +151,28 @@ ul li{
     text-transform: uppercase; 
     color: #ababab;
 }
+    .upper-header ul li:hover{
+            color: #4cb1ca; 
+        }
 
 nav ul li{
     text-transform: uppercase; 
 }
 
+.page-title span{
+    color: #84a0aa;
+}
 
+.feed-item h3{
+    text-transform: none; 
+    font-size: .78em;
+    
+}
 
-
-
+.feed-item span{
+    color: #f02b63; 
+    
+}
 
 
 
