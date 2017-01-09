@@ -128,13 +128,13 @@ h6{
 }
 
 p{
-    font-size: .7em;
+    font-size: .78em;
     color: #c3c3c3;
 }
 
 a{
     text-decoration: none;
-    font-size: .7em;
+    font-size: .78em;
     color: black;
     font-weight: 600;
 }
@@ -148,12 +148,91 @@ ul li{
     text-transform: uppercase; 
     color: #ababab;
 }
+    .upper-header ul li:hover{
+            color: #4cb1ca; 
+        }
 
+nav ul li{
+    text-transform: uppercase; 
+    font-size: 1em;
+    
+}
+
+img{
+    width: 100%; 
+    height: auto; 
+}
+
+#main-header{
+    
+}
 nav ul li{
     text-transform: uppercase; 
 }
 
+.page-title span{
+    color: #84a0aa;
+}
 
+.feed-item h3{
+    text-transform: none; 
+    font-size: .78em;
+    
+}
+
+.feed-item span{
+    color: #f02b63;     
+}
+
+
+/* Header --------------------------------*/
+.upper-header{
+    background: #fff;    
+}
+
+    .upper-header p{
+        display: none
+    }
+
+    .upper-header ul{
+        width: 100%; 
+        text-align: center; 
+        margin: auto; 
+        padding:10px;        
+    }
+
+        .upper-header ul li a:hover{
+            color: #4cb1ca;
+        }
+
+.main-header{
+    float: left;
+    clear: both; 
+}
+
+.social-media-contact{
+    width: 45%; 
+    float: right; 
+}
+.nav-container{
+    width: 100%; 
+}
+
+nav{
+    float: left
+    
+}
+    nav ul li a:hover{
+        color: #f02b63;
+    }
+.shopping-cart{
+    float: right; 
+}
+        
+/* Main --------------------------------*/
+.page-title{
+    display: none; 
+}
 
 
 
