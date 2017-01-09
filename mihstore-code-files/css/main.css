@@ -95,6 +95,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Global Styles ---------------*/
+/* Text Colors -----------------
+Blue: #4cb1ca
+Green: #7db122
+Pink: #f02b63
+Light Grey: #c3c3c3
+Drak Grey: #ababab
+Green Grey: #84a0aa
+
+ * Background Colors ------------
+Light Grey: #f9f9f9
+Dark Grey: #e8e8e8
+*/
+
 
 body{
     font-size: 18px; 
@@ -119,7 +132,7 @@ h4{
 }
 
 h5{
-   color: #afafaf;
+   color: #ababab;
 }
 
 h6{
